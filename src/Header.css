@@ -2,7 +2,7 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #131921;
+  background-color:black;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -11,8 +11,10 @@
 .header__logo {
   width: 100px;
   object-fit: contain;
-  margin: 0 20px;
-  margin-top: 18px;
+  margin-top: 10px;
+  height: 60px;
+  margin-bottom: 10px;
+ 
 }
 
 .header__search {

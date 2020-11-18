@@ -20,7 +20,8 @@ function Header() {
       <Link to="/">
         <img
           className="header__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="https://www.logolynx.com/images/logolynx/ef/eff61be9c4acbaf64bb160e465636609.png"
+          alt="crwn"
         />
       </Link>
 
@@ -37,7 +38,7 @@ function Header() {
           </div>
         </Link>
 
-        <Link to='/orders'>
+        <Link to='/order'>
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
             <span className="header__optionLineTwo">& Orders</span>
@@ -46,8 +47,8 @@ function Header() {
         
 
         <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
+          <span className="header__optionLineOne">Contact</span>
+          <span className="header__optionLineTwo">Us</span>
         </div>
 
         <Link to="/checkout">

@@ -17,3 +17,13 @@
     text-align: right;
   }
   
+  .order__button {
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .order__button:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+  }

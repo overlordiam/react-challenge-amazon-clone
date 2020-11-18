@@ -38,7 +38,8 @@ function Login() {
             <Link to='/'>
                 <img
                     className="login__logo"
-                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
+                    src='https://www.logolynx.com/images/logolynx/ef/eff61be9c4acbaf64bb160e465636609.png' 
+                    alt="CRWN"
                 />
             </Link>
 
@@ -60,7 +61,7 @@ function Login() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button onClick={register} className='login__registerButton'>Create your Amazon Account</button>
+                <button onClick={register} className='login__registerButton'>Create your Account</button>
             </div>
         </div>
     )
